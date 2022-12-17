@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+
+    <constant name="struts.devMode" value="true" />
+
+    <package name="basicstruts2" extends="struts-default">
+    	<action name="index">
+            <result>/index.html</result>
+        </action>
+        <action name="home" class="com.tdtc.demo.controller.HomeAction" method="index">
+            <result name="success">views/home.jsp</result>
+        </action>
+        <action name="userList" class="com.tdtc.demo.controller.HomeAction" method="userList">
+            <result name="success">views/userList.jsp</result>
+        </action>
+        <action name="trainList" class="com.tdtc.demo.controller.HomeAction" method="trainList">
+            <result name="success">views/trainOrder.jsp</result>
+        </action>
+        
+        <action name="userSingle" class="com.tdtc.demo.controller.HomeAction" method="userSingle">
+            <result name="success">views/userSingle.jsp</result>
+        </action>
+        <action name="userDel" class="com.tdtc.demo.controller.HomeAction" method="delUserById">
+            <result name="success">views/userList.jsp</result>
+        </action>
+        <action name="userInsert" class="com.tdtc.demo.controller.HomeAction" method="insertUser">
+            <result name="success">views/userList.jsp</result>
+        </action>
+        <action name="userUpdate" class="com.tdtc.demo.controller.HomeAction" method="updateUser">
+            <result name="success">views/userList.jsp</result>
+        </action>
+    </package>
+
+</struts>
