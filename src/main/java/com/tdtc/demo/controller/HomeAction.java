@@ -33,7 +33,7 @@ public class HomeAction extends ActionSupport {
 		return month;
 	}
 
-	@StrutsParamete
+	@StrutsParameter
 	public void setMonth(String month) {
 		this.month = month;
 	}
@@ -42,7 +42,7 @@ public class HomeAction extends ActionSupport {
 		return trainNum;
 	}
 
-	@StrutsParamete
+	@StrutsParameter
 	public void setTrainNum(String trainNum) {
 		this.trainNum = trainNum;
 	}
