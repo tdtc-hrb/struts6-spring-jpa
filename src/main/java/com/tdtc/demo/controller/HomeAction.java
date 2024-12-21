@@ -10,8 +10,8 @@ import com.tdtc.demo.model.TrainOrder;
 import com.tdtc.demo.model.UserDetails;
 import com.tdtc.demo.service.TrainOrderService;
 import com.tdtc.demo.service.UserDetailsService;
-import com.opensymphony.xwork2.ActionContext;
-import com.opensymphony.xwork2.ActionSupport;
+import org.apache.struts2.ActionContext;
+import org.apache.struts2.ActionSupport;
 
 public class HomeAction extends ActionSupport {
 	@Autowired
