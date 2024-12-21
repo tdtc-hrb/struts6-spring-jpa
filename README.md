@@ -47,14 +47,14 @@ mvn package -DskipTests
 ```
 
 ## Web
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/index    
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/home    
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/userSingle?userId={id}    
-* [userList - struts6_tags](http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/userList)    
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/userDel?userId={id}    
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/userInsert    
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/userUpdate?userName={value}&userId={id}    
-* http://localhost:8080/struts7-spring-jpa-1.0.0-SNAPSHOT/trainList?month={number}&trainNum={number}    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/index    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/home    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/userSingle?userId={id}    
+* [userList - struts6_tags](http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/userList)    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/userDel?userId={id}    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/userInsert    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/userUpdate?userName={value}&userId={id}    
+* http://localhost:8080/struts7-spring-jpa-1.0.1-SNAPSHOT/trainList?month={number}&trainNum={number}    
 
 
 
