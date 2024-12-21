@@ -13,6 +13,8 @@ import com.tdtc.demo.service.UserDetailsService;
 import org.apache.struts2.ActionContext;
 import org.apache.struts2.ActionSupport;
 
+import org.apache.struts2.interceptor.parameter.StrutsParameter;
+
 public class HomeAction extends ActionSupport {
 	@Autowired
 	private UserDetailsService userService;
@@ -31,6 +33,7 @@ public class HomeAction extends ActionSupport {
 		return month;
 	}
 
+	@StrutsParamete
 	public void setMonth(String month) {
 		this.month = month;
 	}
@@ -39,6 +42,7 @@ public class HomeAction extends ActionSupport {
 		return trainNum;
 	}
 
+	@StrutsParamete
 	public void setTrainNum(String trainNum) {
 		this.trainNum = trainNum;
 	}
