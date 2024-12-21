@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tdtc</groupId>
   <artifactId>struts7-spring-jpa</artifactId>
-  <version>0.6.0-SNAPSHOT</version>
+  <version>0.7.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -49,11 +49,34 @@
         <version>1.2</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/com.atomikos/transactions-hibernate4 -->
+    <!-- https://www.atomikos.com/Blog/TransactionsEssentials6dot0#Feature199608_Hibernate_6_support -->
     <dependency>
         <groupId>com.atomikos</groupId>
         <artifactId>transactions-hibernate4</artifactId>
-        <version>5.0.9</version>
+        <version>6.0.0</version>
+        <classifier>jakarta</classifier>
+    </dependency>
+    <dependency>
+        <groupId>com.atomikos</groupId>
+        <artifactId>transactions-jdbc</artifactId>
+        <version>6.0.0</version>
+        <classifier>jakarta</classifier>
+    </dependency>
+    <dependency>
+        <groupId>com.atomikos</groupId>
+        <artifactId>transactions-jta</artifactId>
+        <version>6.0.0</version>
+        <classifier>jakarta</classifier>
+    </dependency>
+    <dependency>
+        <groupId>jakarta.transaction</groupId>
+        <artifactId>jakarta.transaction-api</artifactId>
+        <version>2.0.1</version>
+    </dependency>
+    <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version>
     </dependency>
 
     <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
